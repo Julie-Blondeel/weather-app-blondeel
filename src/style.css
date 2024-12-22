@@ -59,16 +59,17 @@ wether-app-city {
     display: flex;
 }
 .weather-app-icon {
-    font-size: 44px;
-    margin-top: 22px;
+    width: 88px;
+    height: 88px;
 }
 .weather-app-temperature {
     font-size: 88px;
     font-weight: bold;
-    margin-left: 10px;
+    line-height: 88px;
+    color: #885df1;
 }
 .weather-class-unit {
-    margin-top: 16px;
+    margin-top: 6px;
     font-size: 28px;
 }
 footer {
@@ -77,5 +78,4 @@ footer {
     text-align: center;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
-    font-weight: 500;
 }
